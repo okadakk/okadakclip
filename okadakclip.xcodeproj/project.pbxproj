@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D45626A249E006600A9E240 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456265249E006600A9E240 /* SettingView.swift */; };
+		0D45626B249E006600A9E240 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456266249E006600A9E240 /* NewsView.swift */; };
+		0D45626E249E006600A9E240 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456269249E006600A9E240 /* ItemView.swift */; };
+		0D456270249E00E100A9E240 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45626F249E00E100A9E240 /* PhotoDetailView.swift */; };
+		0D456274249E514C00A9E240 /* ProfilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456273249E514C00A9E240 /* ProfilesView.swift */; };
+		0D456276249E60B000A9E240 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456275249E60B000A9E240 /* SessionStore.swift */; };
+		0D456278249E60D400A9E240 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456277249E60D400A9E240 /* User.swift */; };
+		0D45627A249E62DA00A9E240 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456279249E62DA00A9E240 /* SignInView.swift */; };
+		0D45627C249E6B5A00A9E240 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45627B249E6B5A00A9E240 /* MainView.swift */; };
+		0D45627E249E6CED00A9E240 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45627D249E6CED00A9E240 /* OnBoardingView.swift */; };
+		0D456281249E767300A9E240 /* HomePhotoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456280249E767300A9E240 /* HomePhotoMock.swift */; };
+		0D456283249E767C00A9E240 /* UserMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456282249E767C00A9E240 /* UserMock.swift */; };
+		0DC9FFBD249DAF5700E6E8E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFBC249DAF5700E6E8E9 /* AppDelegate.swift */; };
+		0DC9FFBF249DAF5700E6E8E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFBE249DAF5700E6E8E9 /* SceneDelegate.swift */; };
+		0DC9FFC1249DAF5700E6E8E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFC0249DAF5700E6E8E9 /* ContentView.swift */; };
+		0DC9FFC3249DAF5A00E6E8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9FFC2249DAF5A00E6E8E9 /* Assets.xcassets */; };
+		0DC9FFC6249DAF5A00E6E8E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9FFC5249DAF5A00E6E8E9 /* Preview Assets.xcassets */; };
+		0DC9FFC9249DAF5A00E6E8E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9FFC7249DAF5A00E6E8E9 /* LaunchScreen.storyboard */; };
+		0DC9FFD4249DAF5A00E6E8E9 /* okadakclipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFD3249DAF5A00E6E8E9 /* okadakclipTests.swift */; };
+		0DC9FFDF249DAF5A00E6E8E9 /* okadakclipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFDE249DAF5A00E6E8E9 /* okadakclipUITests.swift */; };
+		0DC9FFED249DB09400E6E8E9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFEC249DB09400E6E8E9 /* HomeView.swift */; };
+		0DC9FFF3249DC26200E6E8E9 /* HomePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFF2249DC26200E6E8E9 /* HomePhoto.swift */; };
+		0DC9FFFB249DD24600E6E8E9 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0DC9FFFA249DD24600E6E8E9 /* URLImage */; };
+		0DC9FFFE249DF1D100E6E8E9 /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 0DC9FFFD249DF1D100E6E8E9 /* QGrid */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DC9FFD0249DAF5A00E6E8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DC9FFB1249DAF5700E6E8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC9FFB8249DAF5700E6E8E9;
+			remoteInfo = okadakclip;
+		};
+		0DC9FFDB249DAF5A00E6E8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DC9FFB1249DAF5700E6E8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC9FFB8249DAF5700E6E8E9;
+			remoteInfo = okadakclip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D456265249E006600A9E240 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		0D456266249E006600A9E240 /* NewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		0D456269249E006600A9E240 /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		0D45626F249E00E100A9E240 /* PhotoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		0D456273249E514C00A9E240 /* ProfilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesView.swift; sourceTree = "<group>"; };
+		0D456275249E60B000A9E240 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		0D456277249E60D400A9E240 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0D456279249E62DA00A9E240 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0D45627B249E6B5A00A9E240 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0D45627D249E6CED00A9E240 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		0D456280249E767300A9E240 /* HomePhotoMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePhotoMock.swift; sourceTree = "<group>"; };
+		0D456282249E767C00A9E240 /* UserMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMock.swift; sourceTree = "<group>"; };
+		0DC9FFB9249DAF5700E6E8E9 /* okadakclip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okadakclip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC9FFBC249DAF5700E6E8E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DC9FFBE249DAF5700E6E8E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0DC9FFC0249DAF5700E6E8E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0DC9FFC2249DAF5A00E6E8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DC9FFC5249DAF5A00E6E8E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DC9FFC8249DAF5A00E6E8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DC9FFCA249DAF5A00E6E8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC9FFCF249DAF5A00E6E8E9 /* okadakclipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okadakclipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC9FFD3249DAF5A00E6E8E9 /* okadakclipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = okadakclipTests.swift; sourceTree = "<group>"; };
+		0DC9FFD5249DAF5A00E6E8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC9FFDA249DAF5A00E6E8E9 /* okadakclipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okadakclipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC9FFDE249DAF5A00E6E8E9 /* okadakclipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = okadakclipUITests.swift; sourceTree = "<group>"; };
+		0DC9FFE0249DAF5A00E6E8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC9FFEC249DB09400E6E8E9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0DC9FFF2249DC26200E6E8E9 /* HomePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePhoto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DC9FFB6249DAF5700E6E8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC9FFFE249DF1D100E6E8E9 /* QGrid in Frameworks */,
+				0DC9FFFB249DD24600E6E8E9 /* URLImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC9FFCC249DAF5A00E6E8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC9FFD7249DAF5A00E6E8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D45627F249E764600A9E240 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				0D456284249E76C500A9E240 /* private */,
+				0D456282249E767C00A9E240 /* UserMock.swift */,
+			);
+			path = mocks;
+			sourceTree = "<group>";
+		};
+		0D456284249E76C500A9E240 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				0D456280249E767300A9E240 /* HomePhotoMock.swift */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		0DC9FFB0249DAF5700E6E8E9 = {
+			isa = PBXGroup;
+			children = (
+				0DC9FFBB249DAF5700E6E8E9 /* okadakclip */,
+				0DC9FFD2249DAF5A00E6E8E9 /* okadakclipTests */,
+				0DC9FFDD249DAF5A00E6E8E9 /* okadakclipUITests */,
+				0DC9FFBA249DAF5700E6E8E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DC9FFBA249DAF5700E6E8E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9FFB9249DAF5700E6E8E9 /* okadakclip.app */,
+				0DC9FFCF249DAF5A00E6E8E9 /* okadakclipTests.xctest */,
+				0DC9FFDA249DAF5A00E6E8E9 /* okadakclipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DC9FFBB249DAF5700E6E8E9 /* okadakclip */ = {
+			isa = PBXGroup;
+			children = (
+				0D45627F249E764600A9E240 /* mocks */,
+				0DC9FFF4249DC58300E6E8E9 /* pages */,
+				0DC9FFF1249DC23E00E6E8E9 /* models */,
+				0DC9FFEE249DC0F000E6E8E9 /* components */,
+				0DC9FFBC249DAF5700E6E8E9 /* AppDelegate.swift */,
+				0DC9FFBE249DAF5700E6E8E9 /* SceneDelegate.swift */,
+				0DC9FFC0249DAF5700E6E8E9 /* ContentView.swift */,
+				0D456275249E60B000A9E240 /* SessionStore.swift */,
+				0DC9FFC2249DAF5A00E6E8E9 /* Assets.xcassets */,
+				0DC9FFC7249DAF5A00E6E8E9 /* LaunchScreen.storyboard */,
+				0DC9FFCA249DAF5A00E6E8E9 /* Info.plist */,
+				0DC9FFC4249DAF5A00E6E8E9 /* Preview Content */,
+			);
+			path = okadakclip;
+			sourceTree = "<group>";
+		};
+		0DC9FFC4249DAF5A00E6E8E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9FFC5249DAF5A00E6E8E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DC9FFD2249DAF5A00E6E8E9 /* okadakclipTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9FFD3249DAF5A00E6E8E9 /* okadakclipTests.swift */,
+				0DC9FFD5249DAF5A00E6E8E9 /* Info.plist */,
+			);
+			path = okadakclipTests;
+			sourceTree = "<group>";
+		};
+		0DC9FFDD249DAF5A00E6E8E9 /* okadakclipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9FFDE249DAF5A00E6E8E9 /* okadakclipUITests.swift */,
+				0DC9FFE0249DAF5A00E6E8E9 /* Info.plist */,
+			);
+			path = okadakclipUITests;
+			sourceTree = "<group>";
+		};
+		0DC9FFEE249DC0F000E6E8E9 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		0DC9FFF1249DC23E00E6E8E9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9FFF2249DC26200E6E8E9 /* HomePhoto.swift */,
+				0D456277249E60D400A9E240 /* User.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0DC9FFF4249DC58300E6E8E9 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9FFEC249DB09400E6E8E9 /* HomeView.swift */,
+				0D456269249E006600A9E240 /* ItemView.swift */,
+				0D456266249E006600A9E240 /* NewsView.swift */,
+				0D456265249E006600A9E240 /* SettingView.swift */,
+				0D45626F249E00E100A9E240 /* PhotoDetailView.swift */,
+				0D45627B249E6B5A00A9E240 /* MainView.swift */,
+				0D456273249E514C00A9E240 /* ProfilesView.swift */,
+				0D456279249E62DA00A9E240 /* SignInView.swift */,
+				0D45627D249E6CED00A9E240 /* OnBoardingView.swift */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DC9FFB8249DAF5700E6E8E9 /* okadakclip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC9FFE3249DAF5A00E6E8E9 /* Build configuration list for PBXNativeTarget "okadakclip" */;
+			buildPhases = (
+				0DC9FFB5249DAF5700E6E8E9 /* Sources */,
+				0DC9FFB6249DAF5700E6E8E9 /* Frameworks */,
+				0DC9FFB7249DAF5700E6E8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = okadakclip;
+			packageProductDependencies = (
+				0DC9FFFA249DD24600E6E8E9 /* URLImage */,
+				0DC9FFFD249DF1D100E6E8E9 /* QGrid */,
+			);
+			productName = okadakclip;
+			productReference = 0DC9FFB9249DAF5700E6E8E9 /* okadakclip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DC9FFCE249DAF5A00E6E8E9 /* okadakclipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC9FFE6249DAF5A00E6E8E9 /* Build configuration list for PBXNativeTarget "okadakclipTests" */;
+			buildPhases = (
+				0DC9FFCB249DAF5A00E6E8E9 /* Sources */,
+				0DC9FFCC249DAF5A00E6E8E9 /* Frameworks */,
+				0DC9FFCD249DAF5A00E6E8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC9FFD1249DAF5A00E6E8E9 /* PBXTargetDependency */,
+			);
+			name = okadakclipTests;
+			productName = okadakclipTests;
+			productReference = 0DC9FFCF249DAF5A00E6E8E9 /* okadakclipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DC9FFD9249DAF5A00E6E8E9 /* okadakclipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC9FFE9249DAF5A00E6E8E9 /* Build configuration list for PBXNativeTarget "okadakclipUITests" */;
+			buildPhases = (
+				0DC9FFD6249DAF5A00E6E8E9 /* Sources */,
+				0DC9FFD7249DAF5A00E6E8E9 /* Frameworks */,
+				0DC9FFD8249DAF5A00E6E8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC9FFDC249DAF5A00E6E8E9 /* PBXTargetDependency */,
+			);
+			name = okadakclipUITests;
+			productName = okadakclipUITests;
+			productReference = 0DC9FFDA249DAF5A00E6E8E9 /* okadakclipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DC9FFB1249DAF5700E6E8E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = okada.keisuke;
+				TargetAttributes = {
+					0DC9FFB8249DAF5700E6E8E9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					0DC9FFCE249DAF5A00E6E8E9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 0DC9FFB8249DAF5700E6E8E9;
+					};
+					0DC9FFD9249DAF5A00E6E8E9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 0DC9FFB8249DAF5700E6E8E9;
+					};
+				};
+			};
+			buildConfigurationList = 0DC9FFB4249DAF5700E6E8E9 /* Build configuration list for PBXProject "okadakclip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DC9FFB0249DAF5700E6E8E9;
+			packageReferences = (
+				0DC9FFF9249DD24600E6E8E9 /* XCRemoteSwiftPackageReference "url-image" */,
+				0DC9FFFC249DF1D100E6E8E9 /* XCRemoteSwiftPackageReference "QGrid" */,
+			);
+			productRefGroup = 0DC9FFBA249DAF5700E6E8E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DC9FFB8249DAF5700E6E8E9 /* okadakclip */,
+				0DC9FFCE249DAF5A00E6E8E9 /* okadakclipTests */,
+				0DC9FFD9249DAF5A00E6E8E9 /* okadakclipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DC9FFB7249DAF5700E6E8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC9FFC9249DAF5A00E6E8E9 /* LaunchScreen.storyboard in Resources */,
+				0DC9FFC6249DAF5A00E6E8E9 /* Preview Assets.xcassets in Resources */,
+				0DC9FFC3249DAF5A00E6E8E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC9FFCD249DAF5A00E6E8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC9FFD8249DAF5A00E6E8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC9FFB5249DAF5700E6E8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC9FFF3249DC26200E6E8E9 /* HomePhoto.swift in Sources */,
+				0D456281249E767300A9E240 /* HomePhotoMock.swift in Sources */,
+				0D45627C249E6B5A00A9E240 /* MainView.swift in Sources */,
+				0DC9FFBD249DAF5700E6E8E9 /* AppDelegate.swift in Sources */,
+				0D45627E249E6CED00A9E240 /* OnBoardingView.swift in Sources */,
+				0D456274249E514C00A9E240 /* ProfilesView.swift in Sources */,
+				0D45626B249E006600A9E240 /* NewsView.swift in Sources */,
+				0D456278249E60D400A9E240 /* User.swift in Sources */,
+				0DC9FFED249DB09400E6E8E9 /* HomeView.swift in Sources */,
+				0D456283249E767C00A9E240 /* UserMock.swift in Sources */,
+				0DC9FFBF249DAF5700E6E8E9 /* SceneDelegate.swift in Sources */,
+				0D45626A249E006600A9E240 /* SettingView.swift in Sources */,
+				0D45626E249E006600A9E240 /* ItemView.swift in Sources */,
+				0D456270249E00E100A9E240 /* PhotoDetailView.swift in Sources */,
+				0D456276249E60B000A9E240 /* SessionStore.swift in Sources */,
+				0DC9FFC1249DAF5700E6E8E9 /* ContentView.swift in Sources */,
+				0D45627A249E62DA00A9E240 /* SignInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC9FFCB249DAF5A00E6E8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC9FFD4249DAF5A00E6E8E9 /* okadakclipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC9FFD6249DAF5A00E6E8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC9FFDF249DAF5A00E6E8E9 /* okadakclipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DC9FFD1249DAF5A00E6E8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DC9FFB8249DAF5700E6E8E9 /* okadakclip */;
+			targetProxy = 0DC9FFD0249DAF5A00E6E8E9 /* PBXContainerItemProxy */;
+		};
+		0DC9FFDC249DAF5A00E6E8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DC9FFB8249DAF5700E6E8E9 /* okadakclip */;
+			targetProxy = 0DC9FFDB249DAF5A00E6E8E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DC9FFC7249DAF5A00E6E8E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC9FFC8249DAF5A00E6E8E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DC9FFE1249DAF5A00E6E8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DC9FFE2249DAF5A00E6E8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DC9FFE4249DAF5A00E6E8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"okadakclip/Preview Content\"";
+				DEVELOPMENT_TEAM = D4Q95HYX8S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = okadakclip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Okadak1990.okadakclip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DC9FFE5249DAF5A00E6E8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"okadakclip/Preview Content\"";
+				DEVELOPMENT_TEAM = D4Q95HYX8S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = okadakclip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Okadak1990.okadakclip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DC9FFE7249DAF5A00E6E8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4Q95HYX8S;
+				INFOPLIST_FILE = okadakclipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Okadak1990.okadakclipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/okadakclip.app/okadakclip";
+			};
+			name = Debug;
+		};
+		0DC9FFE8249DAF5A00E6E8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4Q95HYX8S;
+				INFOPLIST_FILE = okadakclipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Okadak1990.okadakclipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/okadakclip.app/okadakclip";
+			};
+			name = Release;
+		};
+		0DC9FFEA249DAF5A00E6E8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4Q95HYX8S;
+				INFOPLIST_FILE = okadakclipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Okadak1990.okadakclipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = okadakclip;
+			};
+			name = Debug;
+		};
+		0DC9FFEB249DAF5A00E6E8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4Q95HYX8S;
+				INFOPLIST_FILE = okadakclipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Okadak1990.okadakclipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = okadakclip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DC9FFB4249DAF5700E6E8E9 /* Build configuration list for PBXProject "okadakclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC9FFE1249DAF5A00E6E8E9 /* Debug */,
+				0DC9FFE2249DAF5A00E6E8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC9FFE3249DAF5A00E6E8E9 /* Build configuration list for PBXNativeTarget "okadakclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC9FFE4249DAF5A00E6E8E9 /* Debug */,
+				0DC9FFE5249DAF5A00E6E8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC9FFE6249DAF5A00E6E8E9 /* Build configuration list for PBXNativeTarget "okadakclipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC9FFE7249DAF5A00E6E8E9 /* Debug */,
+				0DC9FFE8249DAF5A00E6E8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC9FFE9249DAF5A00E6E8E9 /* Build configuration list for PBXNativeTarget "okadakclipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC9FFEA249DAF5A00E6E8E9 /* Debug */,
+				0DC9FFEB249DAF5A00E6E8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0DC9FFF9249DD24600E6E8E9 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.15;
+			};
+		};
+		0DC9FFFC249DF1D100E6E8E9 /* XCRemoteSwiftPackageReference "QGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0DC9FFFA249DD24600E6E8E9 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DC9FFF9249DD24600E6E8E9 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		0DC9FFFD249DF1D100E6E8E9 /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DC9FFFC249DF1D100E6E8E9 /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0DC9FFB1249DAF5700E6E8E9 /* Project object */;
+}
