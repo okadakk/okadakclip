@@ -11,21 +11,28 @@ import QGrid
 import URLImage
 
 struct HomeView: View {
-    let photosData: [HomePhoto] = mockHomePhotosData
+    // let photosData: [HomePhoto] = mockHomePhotosData
+    @ObservedObject private var api = HomePhotoApi()
 
     var body: some View {
-        QGrid(photosData, columns: 3, vSpacing: 0, hSpacing: 0, vPadding: 0, hPadding: 0) { photo in
-            NavigationLink(destination: PhotoDetailView(photoId: photo.id)) {
-                URLImage(
-                    URL(string: photo.imageUrl)!,
-                    expireAfter: Date(timeIntervalSinceNow: 3600.0)
-                )  { proxy in
-                   proxy.image
-                       .resizable()
-                       .aspectRatio(contentMode: .fill)
-                       .clipped()
-               }
-            }.buttonStyle(PlainButtonStyle())
+        VStack {
+            if !self.api.list.isEmpty {
+                QGrid(self.api.list, columns: 3, vSpacing: 0, hSpacing: 0, vPadding: 0, hPadding: 0) { photo in
+                    NavigationLink(destination: PhotoDetailView(photoId: photo.id)) {
+                        URLImage(
+                            URL(string: photo.imageUrl)!,
+                            expireAfter: Date(timeIntervalSinceNow: 3600.0)
+                        )  { proxy in
+                           proxy.image
+                               .resizable()
+                               .aspectRatio(contentMode: .fill)
+                               .clipped()
+                       }
+                    }.buttonStyle(PlainButtonStyle())
+                }
+            } else {
+                Text("loading...")
+            }
         }
         .navigationBarTitle("")
         .navigationBarHidden(true)

@@ -19,6 +19,9 @@
 		0D45627E249E6CED00A9E240 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45627D249E6CED00A9E240 /* OnBoardingView.swift */; };
 		0D456281249E767300A9E240 /* HomePhotoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456280249E767300A9E240 /* HomePhotoMock.swift */; };
 		0D456283249E767C00A9E240 /* UserMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456282249E767C00A9E240 /* UserMock.swift */; };
+		0D456287249F7D6500A9E240 /* HomePhotoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D456286249F7D6500A9E240 /* HomePhotoApi.swift */; };
+		0D45628A249F818700A9E240 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0D456289249F818700A9E240 /* Alamofire */; };
+		0D45628C249F98AC00A9E240 /* HomePhotoApiUrlMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45628B249F98AC00A9E240 /* HomePhotoApiUrlMock.swift */; };
 		0DC9FFBD249DAF5700E6E8E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFBC249DAF5700E6E8E9 /* AppDelegate.swift */; };
 		0DC9FFBF249DAF5700E6E8E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFBE249DAF5700E6E8E9 /* SceneDelegate.swift */; };
 		0DC9FFC1249DAF5700E6E8E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9FFC0249DAF5700E6E8E9 /* ContentView.swift */; };
@@ -63,6 +66,8 @@
 		0D45627D249E6CED00A9E240 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		0D456280249E767300A9E240 /* HomePhotoMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePhotoMock.swift; sourceTree = "<group>"; };
 		0D456282249E767C00A9E240 /* UserMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMock.swift; sourceTree = "<group>"; };
+		0D456286249F7D6500A9E240 /* HomePhotoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePhotoApi.swift; sourceTree = "<group>"; };
+		0D45628B249F98AC00A9E240 /* HomePhotoApiUrlMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePhotoApiUrlMock.swift; sourceTree = "<group>"; };
 		0DC9FFB9249DAF5700E6E8E9 /* okadakclip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okadakclip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC9FFBC249DAF5700E6E8E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DC9FFBE249DAF5700E6E8E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D45628A249F818700A9E240 /* Alamofire in Frameworks */,
 				0DC9FFFE249DF1D100E6E8E9 /* QGrid in Frameworks */,
 				0DC9FFFB249DD24600E6E8E9 /* URLImage in Frameworks */,
 			);
@@ -120,9 +126,18 @@
 		0D456284249E76C500A9E240 /* private */ = {
 			isa = PBXGroup;
 			children = (
+				0D45628B249F98AC00A9E240 /* HomePhotoApiUrlMock.swift */,
 				0D456280249E767300A9E240 /* HomePhotoMock.swift */,
 			);
 			path = private;
+			sourceTree = "<group>";
+		};
+		0D456285249F7D4300A9E240 /* apis */ = {
+			isa = PBXGroup;
+			children = (
+				0D456286249F7D6500A9E240 /* HomePhotoApi.swift */,
+			);
+			path = apis;
 			sourceTree = "<group>";
 		};
 		0DC9FFB0249DAF5700E6E8E9 = {
@@ -153,6 +168,7 @@
 				0DC9FFF1249DC23E00E6E8E9 /* models */,
 				0DC9FFEE249DC0F000E6E8E9 /* components */,
 				0DC9FFBC249DAF5700E6E8E9 /* AppDelegate.swift */,
+				0D456285249F7D4300A9E240 /* apis */,
 				0DC9FFBE249DAF5700E6E8E9 /* SceneDelegate.swift */,
 				0DC9FFC0249DAF5700E6E8E9 /* ContentView.swift */,
 				0D456275249E60B000A9E240 /* SessionStore.swift */,
@@ -241,6 +257,7 @@
 			packageProductDependencies = (
 				0DC9FFFA249DD24600E6E8E9 /* URLImage */,
 				0DC9FFFD249DF1D100E6E8E9 /* QGrid */,
+				0D456289249F818700A9E240 /* Alamofire */,
 			);
 			productName = okadakclip;
 			productReference = 0DC9FFB9249DAF5700E6E8E9 /* okadakclip.app */;
@@ -317,6 +334,7 @@
 			packageReferences = (
 				0DC9FFF9249DD24600E6E8E9 /* XCRemoteSwiftPackageReference "url-image" */,
 				0DC9FFFC249DF1D100E6E8E9 /* XCRemoteSwiftPackageReference "QGrid" */,
+				0D456288249F818700A9E240 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 0DC9FFBA249DAF5700E6E8E9 /* Products */;
 			projectDirPath = "";
@@ -371,8 +389,10 @@
 				0D456278249E60D400A9E240 /* User.swift in Sources */,
 				0DC9FFED249DB09400E6E8E9 /* HomeView.swift in Sources */,
 				0D456283249E767C00A9E240 /* UserMock.swift in Sources */,
+				0D45628C249F98AC00A9E240 /* HomePhotoApiUrlMock.swift in Sources */,
 				0DC9FFBF249DAF5700E6E8E9 /* SceneDelegate.swift in Sources */,
 				0D45626A249E006600A9E240 /* SettingView.swift in Sources */,
+				0D456287249F7D6500A9E240 /* HomePhotoApi.swift in Sources */,
 				0D45626E249E006600A9E240 /* ItemView.swift in Sources */,
 				0D456270249E00E100A9E240 /* PhotoDetailView.swift in Sources */,
 				0D456276249E60B000A9E240 /* SessionStore.swift in Sources */,
@@ -704,6 +724,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0D456288249F818700A9E240 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
 		0DC9FFF9249DD24600E6E8E9 /* XCRemoteSwiftPackageReference "url-image" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
@@ -723,6 +751,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0D456289249F818700A9E240 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D456288249F818700A9E240 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		0DC9FFFA249DD24600E6E8E9 /* URLImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0DC9FFF9249DD24600E6E8E9 /* XCRemoteSwiftPackageReference "url-image" */;
