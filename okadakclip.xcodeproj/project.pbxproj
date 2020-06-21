@@ -163,12 +163,12 @@
 		0DC9FFBB249DAF5700E6E8E9 /* okadakclip */ = {
 			isa = PBXGroup;
 			children = (
-				0D45627F249E764600A9E240 /* mocks */,
-				0DC9FFF4249DC58300E6E8E9 /* pages */,
-				0DC9FFF1249DC23E00E6E8E9 /* models */,
-				0DC9FFEE249DC0F000E6E8E9 /* components */,
-				0DC9FFBC249DAF5700E6E8E9 /* AppDelegate.swift */,
 				0D456285249F7D4300A9E240 /* apis */,
+				0DC9FFEE249DC0F000E6E8E9 /* components */,
+				0D45627F249E764600A9E240 /* mocks */,
+				0DC9FFF1249DC23E00E6E8E9 /* models */,
+				0DC9FFF4249DC58300E6E8E9 /* pages */,
+				0DC9FFBC249DAF5700E6E8E9 /* AppDelegate.swift */,
 				0DC9FFBE249DAF5700E6E8E9 /* SceneDelegate.swift */,
 				0DC9FFC0249DAF5700E6E8E9 /* ContentView.swift */,
 				0D456275249E60B000A9E240 /* SessionStore.swift */,
